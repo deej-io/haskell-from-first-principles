@@ -1,0 +1,19 @@
+name:                haskell-from-first-principles
+version:             0.1.0.0
+github:              "djrollins/from-first-prinicples"
+license:             MIT
+author:              "Daniel J. Rollins"
+maintainer:          "daniel@djrollins.com"
+copyright:           "2018 Daniel J. Rollins"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/djrollins/haskell-from-first-principles#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  dependencies: containers == 1.1

@@ -1,6 +1,6 @@
 name:                haskell-from-first-principles
 version:             0.1.0.0
-github:              "djrollins/from-first-prinicples"
+github:              "djrollins/haskell-from-first-prinicples"
 license:             MIT
 author:              "Daniel J. Rollins"
 maintainer:          "daniel@djrollins.com"
@@ -15,5 +15,14 @@ dependencies:
 - base >= 4.7 && < 5
 
 library:
-  source-dirs: src
-  dependencies: containers == 1.1
+  source-dirs:
+    - src/01-all-you-need-is-lambda/
+    - src/02-hello-haskell/
+    - src/03-strings/
+    - src/04-basic-datatypes/
+    - src/05-types/
+    - src/06-typeclasses/
+    - src/07-more-function-patterns/
+    - src/08-recursion/
+    - src/09-lists/
+

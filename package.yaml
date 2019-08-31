@@ -25,4 +25,5 @@ library:
     - src/07-more-function-patterns/
     - src/08-recursion/
     - src/09-lists/
-
+  dependencies:
+    - time

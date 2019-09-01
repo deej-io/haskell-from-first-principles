@@ -25,5 +25,6 @@ library:
     - src/07-more-function-patterns/
     - src/08-recursion/
     - src/09-lists/
+    - src/10-folding-lists/
   dependencies:
     - time

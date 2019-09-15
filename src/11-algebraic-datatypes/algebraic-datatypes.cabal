@@ -1,0 +1,39 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f7184d88d36aa33061a4f14ddc822dc3868990f0a5efffb30bb4c2ae4adbb93e
+
+name:           algebraic-datatypes
+version:        0.1.0.0
+homepage:       https://github.com/djrollins/haskell-from-first-principles#readme
+bug-reports:    https://github.com/djrollins/haskell-from-first-principles/issues
+author:         Daniel J. Rollins
+maintainer:     daniel@djrollins.com
+copyright:      2018 Daniel J. Rollins
+license:        MIT
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/djrollins/haskell-from-first-principles
+
+library
+  exposed-modules:
+      AsPatterns
+      BinaryTree
+      DaPhone
+      HuttonsRazor
+      LogicGoats
+      Programmers
+      Vehicles
+      Vigenere
+  other-modules:
+      Paths_algebraic_datatypes
+  hs-source-dirs:
+      ./.
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010

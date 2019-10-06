@@ -2,3 +2,4 @@
 haskell-from-first-principles.cabal
 *~
 *.pdf
+*.cabal

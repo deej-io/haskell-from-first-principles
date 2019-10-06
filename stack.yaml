@@ -35,6 +35,7 @@ resolver: lts-14.3
 packages:
 - .
 - ./src/11-algebraic-datatypes
+- ./src/12-signaling-adversity
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)

@@ -36,6 +36,7 @@ packages:
 - .
 - ./src/11-algebraic-datatypes
 - ./src/12-signaling-adversity
+- ./src/13-building-projects/hangman
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)

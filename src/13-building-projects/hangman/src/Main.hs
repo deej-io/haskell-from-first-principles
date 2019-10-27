@@ -205,3 +205,4 @@ main = do
   word <- randomWord
   let puzzle = mkPuzzle (fmap toLower word)
   runGame puzzle
+

@@ -1,4 +1,4 @@
-name:                algebraic-datatypes
+name:                hangman
 version:             0.1.0.0
 github:              "djrollins/haskell-from-first-principles"
 license:             MIT
@@ -7,7 +7,9 @@ maintainer:          "daniel@djrollins.com"
 copyright:           "2018 Daniel J. Rollins"
 
 dependencies:
-- base
+  - base
+  - random
+  - raw-strings-qq
 
 library:
   source-dirs:

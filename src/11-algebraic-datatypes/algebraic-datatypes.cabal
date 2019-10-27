@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f7184d88d36aa33061a4f14ddc822dc3868990f0a5efffb30bb4c2ae4adbb93e
+-- hash: 6b63262b71d12f2d516105675b3d89285d9a5d739722f478d81eecf1fd1a2d9d
 
 name:           algebraic-datatypes
 version:        0.1.0.0
@@ -35,5 +35,5 @@ library
   hs-source-dirs:
       ./.
   build-depends:
-      base >=4.7 && <5
+      base
   default-language: Haskell2010

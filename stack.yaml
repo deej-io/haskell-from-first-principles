@@ -17,7 +17,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-14.3
+resolver: lts-14.11
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -25,21 +25,23 @@ resolver: lts-14.3
 # packages:
 # - some-directory
 # - https://example.com/foo/bar/baz-0.0.2.tar.gz
-# - location:
-#    git: https://github.com/commercialhaskell/stack.git
-#    commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
-# - location: https://github.com/commercialhaskell/stack/commit/e7b331f14bcffb8367cd58fbfc8b40ec7642100a
-#  subdirs:
-#  - auto-update
-#  - wai
+#   subdirs:
+#   - auto-update
+#   - wai
 packages:
+- src/11-algebraic-datatypes
+- src/13-building-projects/hangman
 - .
-- ./src/11-algebraic-datatypes
-- ./src/12-signaling-adversity
-- ./src/13-building-projects/hangman
-# Dependency packages to be pulled from upstream that are not in the resolver
-# using the same syntax as the packages field.
-# (e.g., acme-missiles-0.3)
+- src/12-signaling-adversity
+# Dependency packages to be pulled from upstream that are not in the resolver.
+# These entries can reference officially published versions as well as
+# forks / in-progress versions pinned to a git hash. For example:
+#
+# extra-deps:
+# - acme-missiles-0.3
+# - git: https://github.com/commercialhaskell/stack.git
+#   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
+#
 # extra-deps: []
 
 # Override default flag values for local packages and extra-deps
@@ -53,7 +55,7 @@ packages:
 #
 # Require a specific version of stack, using version ranges
 # require-stack-version: -any # Default
-# require-stack-version: ">=1.9"
+# require-stack-version: ">=2.1"
 #
 # Override the architecture used by stack, especially useful on Windows
 # arch: i386

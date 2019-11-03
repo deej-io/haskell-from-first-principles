@@ -29,10 +29,11 @@ resolver: lts-14.11
 #   - auto-update
 #   - wai
 packages:
-- src/11-algebraic-datatypes
-- src/13-building-projects/hangman
-- .
-- src/12-signaling-adversity
+  - .
+  - src/11-algebraic-datatypes
+  - src/12-signaling-adversity
+  - src/13-building-projects/hangman
+  - src/14-testing/addition
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:

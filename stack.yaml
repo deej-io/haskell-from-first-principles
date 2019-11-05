@@ -33,7 +33,9 @@ packages:
   - src/11-algebraic-datatypes
   - src/12-signaling-adversity
   - src/13-building-projects/hangman
+  - src/14-testing
   - src/14-testing/addition
+  - src/14-testing/morse
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as
 # forks / in-progress versions pinned to a git hash. For example:

@@ -1,16 +1,15 @@
-name: addition
+name: testing
 version: 0.1.0.0
 github: "djrollins/haskell-from-first-principles"
 license: MIT
 author: "Daniel J. Rollins"
 maintainer: "daniel@djrollins.com"
-category: Text
+category: Test
 
 library:
-  exposed-modules: Addition
   ghc-options: -Wall -fwarn-tabs
   dependencies:
     - base
     - hspec
     - QuickCheck
-  source-dirs: src
+  source-dirs: .

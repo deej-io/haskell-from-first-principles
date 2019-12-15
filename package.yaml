@@ -28,3 +28,4 @@ library:
     - src/10-folding-lists/
   dependencies:
     - time
+    - QuickCheck

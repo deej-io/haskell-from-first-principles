@@ -1,4 +1,4 @@
-module Exercises14 where
+module WordNumberTest where
 
 import Test.Hspec
 import WordNumber

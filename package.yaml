@@ -30,3 +30,12 @@ library:
     - time
     - QuickCheck
     - checkers
+
+internal-libraries:
+  common: 
+    source-dirs:
+      - lib
+    dependencies:
+      - QuickCheck
+    exposed-modules:
+      - Types

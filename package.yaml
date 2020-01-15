@@ -16,16 +16,7 @@ dependencies:
 
 library:
   source-dirs:
-    - src/01-all-you-need-is-lambda/
-    - src/02-hello-haskell/
-    - src/03-strings/
-    - src/04-basic-datatypes/
-    - src/05-types/
-    - src/06-typeclasses/
-    - src/07-more-function-patterns/
-    - src/08-recursion/
-    - src/09-lists/
-    - src/10-folding-lists/
+    - src/
   dependencies:
     - time
     - QuickCheck

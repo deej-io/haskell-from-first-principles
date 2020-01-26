@@ -21,3 +21,11 @@ library:
     - time
     - QuickCheck
     - checkers
+    - bytestring
+    - text
+    - hedis
+    - network-uri
+    - random
+    - scotty
+    - transformers
+

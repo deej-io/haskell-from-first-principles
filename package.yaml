@@ -29,4 +29,5 @@ library:
     - scotty
     - transformers
     - trifecta
+    - raw-strings-qq
 

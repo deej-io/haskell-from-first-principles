@@ -30,4 +30,5 @@ library:
     - transformers
     - trifecta
     - raw-strings-qq
+    - containers
 

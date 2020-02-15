@@ -31,4 +31,5 @@ library:
     - trifecta
     - raw-strings-qq
     - containers
+    - criterion
 

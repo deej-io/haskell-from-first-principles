@@ -1,0 +1,32 @@
+name:                fingerd
+version:             0.1.0.0
+description:         A finger daemon
+homepage:            https://github.com/djrollins/haskell-from-first-principles/
+license:             BSD3
+author:              Daniel Rollins
+maintainer:          daniel@djrollins
+copyright:           2020, Daniel Rollins
+
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base
+  - network
+
+executables:
+  debug:
+    ghc-options:      -Wall
+    source-dirs:      debug
+    main:             Debug.hs
+
+  fingerd:
+    ghc-options:      -Wall -Wno-name-shadowing
+    source-dirs:      src
+    main:             Main.hs
+    dependencies:
+      - bytestring
+      - raw-strings-qq
+      - sqlite-simple
+      - text
+      - transformers

@@ -32,4 +32,5 @@ library:
     - raw-strings-qq
     - containers
     - criterion
+    - algebraic-datatypes
 
